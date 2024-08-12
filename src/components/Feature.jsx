@@ -24,7 +24,7 @@ const Feature = () => {
 			{ scale: 1, opacity: 1, ease: "power1" },
 			{ scrub: 5.5 }
 		);
-		animateWithGsap(".g_text", { opacity: 1, y: 0, ease: "power1" });
+		animateWithGsap(".g_text", { opacity: 1, y: 0, ease: "power2.inOut" });
 	}, []);
 
 	return (
